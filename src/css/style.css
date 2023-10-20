@@ -6,10 +6,10 @@ html{
 
 body{
     background: url(../images/bg-desktop.svg) center left no-repeat var(--background-primary-color);
-    background-size: contain;
+    background-size: cover;
 
     max-width: 100%;
-    max-height: 100vh;
+    min-height: 100vh;
 
     padding: 4.5rem 6.5rem 2rem 6.5rem;
 
@@ -44,6 +44,9 @@ body{
     grid-template-columns: 1fr 1fr;
     margin-top: 4rem;  
     column-gap: 1rem;
+    max-width: 100%;
+    width: auto;
+    height: auto;
 }
 
 .container .hero .info{
@@ -79,8 +82,9 @@ body{
     color: var(--background-primary-color);
     background-color: white;
     border-radius: 3rem;
-    box-shadow: 0.1rem 0.1rem 0.6rem black;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     transition: 0.3s;
+
 }
 
 .container .hero .info .btn-register:hover{
@@ -90,6 +94,7 @@ body{
 
 .container .hero .image img{
     width: 100%;
+
 }
 
 
@@ -104,6 +109,10 @@ body{
 
 .container .footer .social{
     display: flex; 
+}
+
+.container .footer .social nav{
+    display: flex;
 }
 
 

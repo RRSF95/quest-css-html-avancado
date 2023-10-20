@@ -1,4 +1,4 @@
-@media (max-width: 688px) {
+@media (max-width: 830px) {
     body {
        background:  url(../images/bg-mobile.svg) no-repeat var(--background-primary-color);
        background-size: contain;
@@ -70,5 +70,91 @@
     .container .footer .social i{
         font-size: 1.2rem;
     }
+
+}
+
+
+@media (min-width: 1580px) {
+    .container .header .logo img{
+        width: 24.2rem;
+    }
+
+    .container .hero .info{
+        margin-top: 4.4rem;
+        padding: 0 7.7rem 0 4.4rem;
+    }
+
+    .container .hero .info h2{
+        font-size: 4.5rem;
+    }
+
+    .container .hero .info p{
+        margin-top: 2.2rem;
+        margin-bottom: 4.4rem;
+        font-size: 1.98rem;
+    }
+
+    .container .hero .info a{
+        padding: 1.65rem 6.6rem;
+        margin-left: 1.10rem;
+
+        font-size: 1.98rem;
+        border-radius: 3.3rem;
+    }
+
+    .footer .social a {
+        width: 4.4rem;
+        height: 4.4rem;
+        margin-left: 1.65rem;
+        font-size: 2.2rem;
+    }
+
+    .footer .social i{
+        font-size: 2.2rem;
+    }
+
+}
+
+@media (min-width: 1700px) {
+    .container .header .logo img{
+        width: 27rem;
+    }
+
+    .container .hero .info{
+        margin-top: 5rem;
+        padding: 0 8.75rem 0 5rem;
+    }
+
+    .container .hero .info h2{
+        font-size: 5rem;
+    }
+
+    .container .hero .info p{
+        margin-top: 2.5rem;
+        margin-bottom: 5rem;
+        font-size: 2.25rem;
+    }
+
+    .container .hero .info a{
+        padding: 1.9rem 7.5rem;
+        margin-left: 1.25rem;
+
+        font-size: 2.25rem;
+        border-radius: 3.75rem;
+    }
+
+    .footer .social a {
+        width: 5rem;
+        height: 5rem;
+        margin-left: 1.9rem;
+        font-size: 2.5rem;
+    }
+
+    .footer .social i{
+        font-size: 2.5rem;
+    }
+
+    
+
 
 }
